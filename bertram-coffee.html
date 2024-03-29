@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="bertram-coffee.js"></script>
+		<link rel="stylesheet" href="bertram-coffee.css">
+	</head>
+	<body>		
+		<!--
+			In a production setting, this is where you would put an ngFor in
+			Angular or a React mapping for the "employees" array in the model
+		-->
+		<div>
+			<div>
+				<span>Name: </span><input type="text" id="name0" value="Andrea">
+				<span>Cost of favorite coffee: </span><input type="number" id="cost0" value="1.23">
+				<span>Outstanding balance: </span><input type="number" id="tab0" value="0">
+				<input type="checkbox" id="optIn0" name="optIn0" value="optIn" checked><label for="optIn0">Got coffee</label><br>
+			</div>
+			<div>
+				<span>Name: </span><input type="text" id="name1" value="Bob">
+				<span>Cost of favorite coffee: </span><input type="number" id="cost1" value="2.34">
+				<span>Outstanding balance: </span><input type="number" id="tab1" value="0">
+				<input type="checkbox" id="optIn1" name="optIn1" value="optIn" checked><label for="optIn1">Got coffee</label><br>
+			</div>
+			<div>
+				<span>Name: </span><input type="text" id="name2" value="Clarissa">
+				<span>Cost of favorite coffee: </span><input type="number" id="cost2" value="3.45">
+				<span>Outstanding balance: </span><input type="number" id="tab2" value="0">
+				<input type="checkbox" id="optIn2" name="optIn2" value="optIn" checked><label for="optIn2">Got coffee</label><br>
+			</div>
+			<div>
+				<span>Name: </span><input type="text" id="name3" value="Danny">
+				<span>Cost of favorite coffee: </span><input type="number" id="cost3" value="4.56">
+				<span>Outstanding balance: </span><input type="number" id="tab3" value="0">
+				<input type="checkbox" id="optIn3" name="optIn3" value="optIn" checked><label for="optIn3">Got coffee</label><br>
+			</div>
+			<div>
+				<span>Name: </span><input type="text" id="name4" value="Eleanor">
+				<span>Cost of favorite coffee: </span><input type="number" id="cost4" value="5.67">
+				<span>Outstanding balance: </span><input type="number" id="tab4" value="0">
+				<input type="checkbox" id="optIn4" name="optIn4" value="optIn" checked><label for="optIn4">Got coffee</label><br>
+			</div>
+			<div>
+				<span>Name: </span><input type="text" id="name5" value="Fred">
+				<span>Cost of favorite coffee: </span><input type="number" id="cost5" value="6.78">
+				<span>Outstanding balance: </span><input type="number" id="tab5" value="0">
+				<input type="checkbox" id="optIn5" name="optIn5" value="optIn" checked><label for="optIn5">Got coffee</label><br>
+			</div>
+			<div>
+				<span>Name: </span><input type="text" id="name6" value="Jeremy">
+				<span>Cost of favorite coffee: </span><input type="number" id="cost6" value="7.89">
+				<span>Outstanding balance: </span><input type="number" id="tab6" value="0">
+				<input type="checkbox" id="optIn6" name="optIn6" value="optIn" checked><label for="optIn6">Got coffee</label><br>
+			</div>
+		</div>
+		
+		<div>
+			<input type="checkbox" id="salesTaxCheckbox" name="salesTaxCheckbox" value="salesTaxCheckbox" checked><label for="salesTaxCheckbox">Include sales tax</label>
+			<span>Sales tax: </span><input type="text" id="salesTaxInput" value="8.15"></br>
+			<input type="checkbox" id="tipCheckbox" name="tipCheckbox" value="tipCheckbox" checked><label for="tipCheckbox">Include tip</label>
+			<span>Tip amount: </span><input type="text" id="tipInput" value="20"></br>
+		</div>
+		
+		<div>
+			<button onclick="determinePayee()">Calculate Payee</button>
+			<p id="output"></p>
+		</div>
+				
+	</body>
+</html>
