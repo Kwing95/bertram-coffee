@@ -23,7 +23,7 @@ Document any assumptions you made in creating your program.
    balance to the next payee, with that same amount being subtracted from the
    tab of the payee.
    
-4. We assume that tips intended to be paid based on the pre-tax cost of the
+4. We assume that tips are intended to be paid based on the pre-tax cost of the
    order, and that all employees are in agreement on what the tip amount should
    be. In other words, the tips is not aggregated from what each employee wants
    to tip independently for their coffee.
