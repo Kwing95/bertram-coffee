@@ -64,7 +64,7 @@ function modifyCost(amount){
 	return amount;
 }
 
-function determinePayee(){
+function determinePayer(){
 	
 	// Update employee data in case data has been modified
 	updateEmployees();
@@ -95,7 +95,7 @@ function determinePayee(){
 	// Display the output to the DOM
 	outputPanel.innerHTML = "<div>" + employeeToPay.name + " should pay for this order.</div>";
 	
-	// Subtract the total cost from the payee's tab
+	// Subtract the total cost from the payer's tab
 	employeeToPay.tab -= totalCost;
 	
 	for(let i in employees){

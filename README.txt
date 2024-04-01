@@ -20,8 +20,8 @@ Document any assumptions you made in creating your program.
 3. We assume an employee never permanently leaves and thus will not have to pay
    an outstanding balance. If this assumption is false, an edge case could be
    added where a recently removed employee is asked to pay their remaining
-   balance to the next payee, with that same amount being subtracted from the
-   tab of the payee.
+   balance to the next payer, with that same amount being subtracted from the
+   tab of the payer.
    
 4. We assume that tips are intended to be paid based on the pre-tax cost of the
    order, and that all employees are in agreement on what the tip amount should
@@ -44,7 +44,7 @@ online
 1. Confirm the name of each employee, the cost of their preferred cup of coffee,
    whether or not they received coffee at the group outing, and if they have an
    existing outstanding balance not accounted for as an initial condition.
-2. Click "Calculate Payee" for each coffee outing to determine who should pay
+2. Click "Calculate Payer" for each coffee outing to determine who should pay
    for that outing.
 
 Additional notes:
